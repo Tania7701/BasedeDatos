@@ -68,7 +68,7 @@ GO
 SELECT*FROM Productos2
 
 
--- Crear dos tablas con razón de cardinalidad de 1:N con participación total, esto quiere decir que la foreign key es not null
+-- Crear dos tablas con razï¿½n de cardinalidad de 1:N con participaciï¿½n total, esto quiere decir que la foreign key es not null
 CREATE TABLE Categoria (
 CategoriaId int not null identity(1,1),
 NombreCategoria nvarchar(20) not null,
